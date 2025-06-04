@@ -10,6 +10,7 @@ main {
   flex-direction: row;
   flex: auto;
 }
+footer{width:100%;}
 article {
   flex: 2;
   overflow-y: auto;
