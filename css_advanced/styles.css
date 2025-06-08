@@ -79,6 +79,7 @@ ul {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
+    
 }
 .navbar {
     display: flex;
@@ -96,12 +97,14 @@ ul {
     display: flex;
     gap: 2rem;
     list-style: none;
+    
 }
 .nav-links a{
     color: #fff !important;
     transition: color 0.3s ease;
     text-decoration: none;
     font-weight: 500;
+    cursor: pointer;
 }
 .nav-links a:hover {
     color: #8E00FF;
@@ -112,6 +115,7 @@ ul {
     text-align:center;
     margin-top: -880px;
     padding: 130px;
+    color: white;
 }
 #hero{
     position: relative;
@@ -147,6 +151,7 @@ ul {
     justify-content: center;
     gap: 60px;
     margin-bottom: 30px;
+    
 }
 .hero-keywords span {
     font-size: 10px;
@@ -157,6 +162,7 @@ ul {
     justify-content: center;
     gap: 40px;
     margin-top: 20px;
+    color: white;
 }
 .tutor-card {
     border-radius: 10px;
