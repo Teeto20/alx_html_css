@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4a2b055604.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="0-styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <img src="headphone_imgs/images/logo_headphones.png" alt="logo" />
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span class="middle"></span>
+            <span></span>
+          </div>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#what-we-do">what we do</a></li>
+            <li><a href="#our-result">our results</a></li>
+            <li><a href="#contact-us">contact us</a></li>
+          </ul>
+        </nav>
+        <div class="hero-content">
+          <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+          <h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
+          <button type="submit" class="btn">CALL TO ACTION</button>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="what-we-do-section" id="what-we-do">
+        <div class="container">
+          <h3>What we do…</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <div class="icons">
+            <div class="icon-item">
+              <img
+                src="headphone_imgs/images/sound-frecuency.png"
+                alt="sound-frecuency"
+              />
+              <p>Lorem ipsum</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="icon-item">
+              <img src="headphone_imgs/images/video.png" alt="video" />
+              <p>Lorem ipsum</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="icon-item">
+              <img src="headphone_imgs/images/music.png" alt="music" />
+              <p>Lorem ipsum</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="icon-item">
+              <img src="headphone_imgs/images/hearing.png" alt="hearing" />
+              <p>Lorem ipsum</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="our-results-section" id="our-results">
+        <div class="container">
+          <div class="results">
+            <h3>Our results speak for themselves</h3>
+            <p class="results-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+          </div>
+          <div class="stats">
+            <div class="stats-item">
+              <img src="headphone_imgs/images/pentagone.png" alt="pentagone" />
+              <div class="img-text">
+                <h2>+2%</h2>
+                <p>Lorem ipsum dolor</p>
+              </div>
+            </div>
+            <div class="stats-item">
+              <img src="headphone_imgs/images/pentagone.png" alt="pentagone" />
+              <div class="img-text">
+                <h2>+2%</h2>
+                <p>Lorem ipsum dolor</p>
+              </div>
+            </div>
+            <div class="stats-item">
+              <img src="headphone_imgs/images/pentagone.png" alt="pentagone" />
+              <div class="img-text">
+                <h2>+2%</h2>
+                <p>Lorem ipsum dolor</p>
+              </div>
+            </div>
+            <div class="stats-item">
+              <img src="headphone_imgs/images/pentagone.png" alt="pentagone" />
+              <div class="img-text">
+                <h2>+2%</h2>
+                <p>Lorem ipsum dolor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us-section" id="contact-us">
+        <div class="container contact">
+          <h3>Contact us</h3>
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Your message" />
+            <button type="submit" class="btn">CALL TO ACTION</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-section">
+        <div class="container">
+          <div class="footer-content">
+            <img src="headphone_imgs/images/logo_headphones.png" alt="logo" />
+
+            <div class="social-icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+          <p>&copy;headphones 2020</p>
+        </div>
+      </section>
+    </footer>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+
+      
+      document.querySelectorAll("#nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("show");
+        });
+      });
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
